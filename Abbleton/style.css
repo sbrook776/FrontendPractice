@@ -3,7 +3,7 @@ body {
 }
 
 #imageHeader {
-    background-image: url("images/header.jpg");
+    background-image: url("images/header-compressed.jpg");
     width: 80%;
     height: 100px;
     margin: 0 auto;
@@ -12,6 +12,71 @@ body {
     background-position: 50%, 50%;
     background-repeat: no-repeat;
     min-height: calc(100vh - 120px);
+    position: relative;
+}
+
+#photo1Container {
+    background-image: url("images/photo-1-compressed.jpg");
+    background-position: 50%, 50%;
+    height: 60%;
+    background-size: cover;
+}
+#photo2Container {
+    background-image: url("images/photo-2-min.jpg");
+    background-position: 50%, 50%;
+    height: 35%;
+    background-size: cover;
+
+}
+#photo3Container {
+    background-image: url("images/photo-3-min.jpg");
+    background-position: 50%, 50%;
+    height: 90%;
+    background-size: cover;
+
+}
+#photo4Container {
+    background-image: url("images/photo-4-min.jpg");
+    background-position: 50%, 50%;
+    height: 90%;
+    background-size: cover;
+
+}
+#photo5Container {
+    background-image: url("images/photo-5-min.jpg");
+    background-position: 50%, 50%;
+    height: 70%;
+    background-size: cover;
+
+}
+#photo6Container {
+    background-image: url("images/photo-6-min.jpg");
+    background-position: 50%, 50%;
+    height: 25vw;
+    background-size: cover;
+
+}
+#photo7Container {
+    background-image: url("images/photo-7-min.jpg");
+    background-position: 50%, 50%;
+    height: 41.666vw;
+    background-size: cover;
+
+}
+#photo8Container {
+    background-image: url("images/photo-8-min.jpg");
+    background-position: 50%, 50%;
+    height: 41.666vw;
+    background-size: cover;
+
+}
+#bannerImg1 {
+    background-image: url("images/poster-meet-the-makers-min.jpg");
+    background-position: 50%, 50%;
+    height: 100%;
+    background-size: cover;
+    min-height: calc(100vh - 120px);
+    margin: 120px auto;
 }
 .blueLink {
     color: blue;
