@@ -5,54 +5,59 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<script src="https://cdn.tailwindcss.com"></script>
 		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		/>
 		<!-- <link rel="icon" href="" type="" /> -->
 		<title>Abbleton</title>
 	</head>
-	<body>
-		<!-- Start of Navigation -->
-		<nav class="border-b-2 p-5 flex font-semibold gap-x-10 text-sm">
-			<a href="">
-				<svg
-					aria-hidden="true"
-					focusable="false"
-					class="main-nav__logo__image"
-					xmlns="http://www.w3.org/2000/svg"
-					width="45"
-					height="21"
-					viewBox="0 0 45 21"
-				>
-					<path
-						d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"
-					></path>
-				</svg>
-			</a>
-			<ol class="flex w-full justify-between">
-				<li><a href="">Live</a></li>
-				<li><a href="">Push</a></li>
-				<li><a href="">Note</a></li>
-				<li><a href="">Link</a></li>
-				<li><a href="">Shop</a></li>
-				<li><a href="">Packs</a></li>
-				<li><a href="">Help</a></li>
-				<li><a href="" class="text-[#ff764d]">More +</a></li>
-			</ol>
-			<ol class="flex w-full justify-end gap-x-10 w-full">
-				<li><a href="" class="blueLink">Try Live for free</a></li>
-				<li><a href="" class="text-xs">Login or Register</a></li>
-			</ol>
-		</nav>
-		<!-- End of Navigation -->
+	<body class="flex flex-col">
+		<header>
+			<!-- Start of Navigation -->
+			<nav class="border-b-2 p-5 flex font-bold gap-x-10 text-sm">
+				<a href="">
+					<svg
+						aria-hidden="true"
+						focusable="false"
+						class="main-nav__logo__image"
+						xmlns="http://www.w3.org/2000/svg"
+						width="45"
+						height="21"
+						viewBox="0 0 45 21"
+					>
+						<path
+							d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"
+						></path>
+					</svg>
+				</a>
+				<ol class="flex w-full justify-between">
+					<li><a href="">Live</a></li>
+					<li><a href="">Push</a></li>
+					<li><a href="">Note</a></li>
+					<li><a href="">Link</a></li>
+					<li><a href="">Shop</a></li>
+					<li><a href="">Packs</a></li>
+					<li><a href="">Help</a></li>
+					<li><a href="" class="text-[#ff764d]">More +</a></li>
+				</ol>
+				<ol class="flex w-full justify-end gap-x-10 w-full">
+					<li><a href="" class="blueLink">Try Live for free</a></li>
+					<li><a href="" class="text-xs">Login or Register</a></li>
+				</ol>
+			</nav>
+			<!-- End of Navigation -->
+		</header>
 		<header id="imageHeader" class="mb-[60px] flex justify-center items-center">
-			<p class="text-[#ff764d] text-[120px] font-semibold">Ableton</p>
+			<p class="text-[#fd5948] text-[120px] font-bold">Ableton</p>
 		</header>
 		<!-- Start of section 1 -->
 		<section class="w-1/2 flex flex-col m-auto my-[60px]">
-			<h1 class="mb-10 text-2xl font-semibold">
-				We make <span class="blueLink">Live</span>,
-				<span class="blueLink">Push</span> and
-				<span class="blueLink">Link</span> — unique software and hardware for
-				music creation and performance. With these products, our community of
-				users creates amazing things.
+			<h1 class="mb-10 font-semibold">
+				We make <a href="">Live</a>, <a href="">Push</a> and
+				<a href="">Link</a> — unique software and hardware for music creation
+				and performance. With these products, our community of users creates
+				amazing things.
 			</h1>
 			<p class="text-l">
 				Ableton was founded in 1999 and released the first version of Live in
@@ -74,7 +79,7 @@
 		<!-- Image collage 1 end-->
 		<!-- Start of section 2 -->
 		<section class="w-1/2 flex flex-col m-auto my-[60px]">
-			<h1 class="mb-10 text-2xl font-semibold">
+			<h1 class="mb-10 font-bold">
 				Making music isn’t easy. It takes time, effort, and learning. But when
 				you’re in the flow, it’s incredibly rewarding.
 			</h1>
@@ -105,7 +110,7 @@
 		<!-- Videa end -->
 		<!-- Start of section 3 -->
 		<section class="w-1/2 flex flex-col m-auto my-[60px]">
-			<h1 class="mb-10 text-2xl font-semibold">
+			<h1 class="mb-10 font-bold">
 				We are more than 350 people from 30 different countries divided between
 				our headquarters in Berlin and our offices in Los Angeles and Tokyo.
 			</h1>
@@ -139,7 +144,7 @@
 		<!-- Image collage 2 end-->
 		<!-- Start of section 4 -->
 		<section class="w-1/2 flex flex-col m-auto my-[60px]">
-			<h1 class="mb-10 text-2xl font-semibold">
+			<h1 class="mb-10 font-bold">
 				We believe it takes focus to create truly outstanding instruments. We
 				only work on a few products and we strive to make them great.
 			</h1>
@@ -156,9 +161,9 @@
 		<!-- Image banner start-->
 		<div id="bannerImg1" class="w-[85%]"></div>
 		<!-- Image banner end-->
-		<!-- Start of section 4 -->
+		<!-- Start of section 5 -->
 		<section class="w-1/2 flex flex-col m-auto my-[60px]">
-			<h1 class="mb-10 text-2xl font-semibold">
+			<h1 class="mb-10 font-bold">
 				We want our employees to love it here. Since we’re looking for
 				exceptional talent from around the world, we will do everything we can
 				to make your transition as easy as possible.
@@ -172,19 +177,19 @@
 				debate are valued and openly encouraged.
 			</p>
 		</section>
-		<!-- End of section 4 -->
+		<!-- End of section 5 -->
 		<div
-			class="flex relative w-full h-[900px] pl-[7.5%] justify-between items-center"
+			class="flex relative w-full h-[810px] pl-[7.5%] justify-between items-center my-[60px]"
 		>
 			<div id="photo6Container" class="w-[35%]"></div>
 			<div id="photo7Container" class="w-[50%]"></div>
 			<div
-				class="bg-[#D5B3FF] z-[-1] absolute w-[65%] h-[90%] top-[40px] left-[17.5%]"
+				class="bg-[#D5B3FF] z-[-1] absolute w-[65%] h-[100%] top-0 left-[17.5%]"
 			></div>
 		</div>
-		<!-- Start of section 5 -->
+		<!-- Start of section 6 -->
 		<section class="w-1/2 flex flex-col m-auto my-[60px]">
-			<h1 class="mb-10 text-2xl font-semibold">
+			<h1 class="mb-10 font-bold">
 				We want our employees to love it here. Since we’re looking for
 				exceptional talent from around the world, we will do everything we can
 				to make your transition as easy as possible.
@@ -199,13 +204,120 @@
 				variety of fun, informal small-group activities.
 			</p>
 		</section>
-		<!-- End of section 5 -->
-		<div id="latestJobs" class="flex w-[85%] justify-between">
+		<!-- End of section 6 -->
+		<div
+			id="latestJobs"
+			class="flex w-[85%] justify-between mx-auto mt-[60px] mb-[120px]"
+		>
 			<div id="photo8Container" class="w-1/2"></div>
-			<div class="bg-[#b1c5ff]">
-				We’re really proud of the work we’ve done so far. But there’s so much
-				more to come. If you’d like to be a part of it, please join us.
+			<div class="bg-[#b1c5ff] flex justify-center items-center w-1/2">
+				<h1 class="w-[60%] font-bold">
+					We’re really proud of the work we’ve done so far. But there’s so much
+					more to come. If you’d like to be a part of it, please join us.
+					<a href="" class="block mt-8">See latest jobs &rsaquo;</a>
+				</h1>
 			</div>
 		</div>
+		<footer class="border-t-2">
+			<!-- Footer container start -->
+			<div class="flex flex-col w-[85%] py-[8.3333vw] mx-auto">
+				<!-- row 1 - Website Title-->
+				<h2 class="font-bold text-5xl pb-[80px]">Ableton</h2>
+				<!-- row 2 -->
+				<div class="flex justify-between mb-[50px]">
+					<ul class="whitespace-nowrap w-[30%]">
+						<li>
+							<a href="">Register Live or Push &rsaquo;</a>
+						</li>
+						<li>
+							<a href="">About Ableton &rsaquo;</a>
+						</li>
+						<li>
+							<a href="">Jobs &rsaquo;</a>
+						</li>
+						<li class="mt-[20px]">
+							<i
+								class="fa-brands fa-square-facebook text-4xl text-[#3477F2]"
+							></i>
+							<i
+								class="fa-brands fa-square-twitter text-4xl text-[#1da1f2]"
+							></i>
+							<i
+								class="fa-brands fa-square-youtube text-4xl text-[#ff001d]"
+							></i>
+							<i
+								class="fa-brands fa-square-instagram text-4xl text-[#f77737]"
+							></i>
+						</li>
+					</ul>
+					<ul class="w-[30%]">
+						<li><strong>Education</strong></li>
+						<li><a href=""></a>Offers for students and teachers &rsaquo;</li>
+						<li><a href="">Ableton for the classroom &rsaquo;</a></li>
+						<li>
+							<a href="">Ableton for Colleges and Universities &rsaquo;</a>
+						</li>
+					</ul>
+					<ul class="w-[40%]">
+						<li><strong>Sign up to our newsletter</strong></li>
+						<li>
+							Enter your email address to stay up to date with the latest
+							offers, tutorials, downloads, surveys and more.
+						</li>
+						<li>
+							<form action="" class="w-full flex mt-[20px]">
+								<input
+									type="text"
+									placeholder="Email Adress"
+									class="bg-[#eee] py-[8px] px-3 grow"
+								/><button class="bg-[blue] text-[white] px-4 font-bold">
+									Sign up
+								</button>
+							</form>
+						</li>
+					</ul>
+					<div></div>
+				</div>
+				<!-- row 3 -->
+				<div class="flex mb-[50px]">
+					<ul class="w-[30%]">
+						<li><strong>Community</strong></li>
+						<li>Find Ableton User Groups &rsaquo;</li>
+						<li>Find Certified Training &rsaquo;</li>
+						<li>Become a Certified Trainer &rsaquo;</li>
+					</ul>
+					<ul class="w-[30%]">
+						<li><strong>Language and Location</strong></li>
+						<li>
+							<form action="" class="mt-[20px] flex box-border gap-x-[5px]">
+								<select name="" id="" class="bg-[#eee] py-[6px] px-3 w-[30%]">
+									<option value="English">English</option>
+								</select>
+								<select name="" id="" class="bg-[#eee] py-[6px] px-3 w-[70%]">
+									<option value="New Zealand" class="bg-[#eee] py-[8px] px-3">
+										New Zealand
+									</option>
+								</select>
+							</form>
+						</li>
+					</ul>
+				</div>
+				<!-- row 4 -->
+				<div class="flex justify-between">
+					<ul class="flex">
+						<li class="mr-[1rem] text-sm"><a href="">Contact Us</a></li>
+						<li class="mr-[1rem] text-sm">
+							<a href=""></a><a href="">Press Resources</a>
+						</li>
+						<li class="mr-[1rem] text-sm"><a href="">Legal Info</a></li>
+						<li class="mr-[1rem] text-sm"><a href="">Privacy Policy</a></li>
+						<li class="mr-[1rem] text-sm"><a href="">Cookie Settings</a></li>
+						<li class="mr-[1rem] text-sm"><a href="">Imprint</a></li>
+					</ul>
+					<div class="text-sm">Made in New Zealand</div>
+				</div>
+			</div>
+			<!-- Footer container end -->
+		</footer>
 	</body>
 </html>
