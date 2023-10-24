@@ -26,35 +26,40 @@ body {
 #photo1Container {
     background-image: url("images/photo-1-compressed.jpg");
     background-position: 50%, 50%;
-    height: 60%;
+    height: 40vw;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #photo2Container {
     background-image: url("images/photo-2-min.jpg");
     background-position: 50%, 50%;
-    height: 35%;
+    height: 25vw;
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #photo3Container {
     background-image: url("images/photo-3-min.jpg");
     background-position: 50%, 50%;
-    height: 90%;
+    height: 40vw;
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #photo4Container {
     background-image: url("images/photo-4-min.jpg");
     background-position: 50%, 50%;
-    height: 90%;
+    height: 40vw;
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #photo5Container {
     background-image: url("images/photo-5-min.jpg");
     background-position: 50%, 50%;
-    height: 70%;
+    height: 41.666vw;
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #photo6Container {
@@ -62,6 +67,7 @@ body {
     background-position: 50%, 50%;
     height: 25vw;
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #photo7Container {
@@ -69,13 +75,15 @@ body {
     background-position: 50%, 50%;
     height: 41.666vw;
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #photo8Container {
     background-image: url("images/photo-8-min.jpg");
     background-position: 100%, 60%;
-    height: 41.666vw;
+    height: 50vw;
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #bannerImg1 {
@@ -83,12 +91,13 @@ body {
     background-position: 50%, 50%;
     height: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
     min-height: calc(100vh - 120px);
     margin: 120px auto;
 }
 /* Headings */
 h1 {
-    font-size: 1.5rem !important;
+    font-size: 1.25rem !important;
 }
 h1 a, .blueLink {
     color: blue;
@@ -96,3 +105,44 @@ h1 a, .blueLink {
 p {
     font-size: 1rem;
 }
+
+
+/* Media queries */
+
+
+@media only screen and (max-width: 1024px) {
+    #latestJobs {
+        flex-direction: column;
+    }
+    #latestJobs > * {
+        width: 100%;
+    }
+    #latestJobs h1 {
+        margin: 80px;
+        width: 80%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #footerContainer div {
+        flex-direction: column;
+    }
+    #footerRow2 ul:nth-child(1) { 
+    order:2;
+    display: flex;
+    flex-direction: column; }
+    #footerRow2 ul:nth-child(2) { order:3; }
+    #footerRow2 ul:nth-child(3) { order:1; }
+
+    #footerContainer div ul{
+        width: 100%;
+    }
+#footerSecondaryLinks, #footerSecondaryLinks ul {
+    flex-direction: column;
+}
+#footerSignature {
+    margin: 20px 0;
+}
+  }

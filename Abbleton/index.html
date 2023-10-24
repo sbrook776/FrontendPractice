@@ -73,7 +73,7 @@
 				<div id="photo2Container" class="justify-self-end w-[40%]"></div>
 			</div>
 			<div
-				class="w-[65%] h-[85%] bg-[#FBFFA7] absolute z-[-1] top-[7.5%] left-[36.3vw] align-middle"
+				class="w-[58.33vw] h-[58.33vw] bg-[#FBFFA7] absolute z-[-1] top-[7.5%] left-[36.3vw] align-middle"
 			></div>
 		</div>
 		<!-- Image collage 1 end-->
@@ -91,8 +91,11 @@
 		</section>
 		<!-- End of section 2 -->
 		<!-- Video start -->
-		<div class="my-[120px]">
-			<div id="videoWrapper" class="w-[560px] m-auto">
+		<div class="my-[120px] w-[50%] m-auto">
+			<div
+				id="videoWrapper"
+				class="w-[100%] m-auto relative overflow-hidden pt-[56.35%]"
+			>
 				<iframe
 					width="560"
 					height="315"
@@ -101,11 +104,12 @@
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					allowfullscreen
+					class="absolute top-0 right-0 left-0 bottom-0 h-full w-full"
 				></iframe>
-				<figcaption class="font-bold text-xs p-2">
-					Why Ableton - Juanpe Bolivar
-				</figcaption>
 			</div>
+			<figcaption class="font-bold text-xs p-2">
+				Why Ableton - Juanpe Bolivar
+			</figcaption>
 		</div>
 		<!-- Videa end -->
 		<!-- Start of section 3 -->
@@ -126,7 +130,7 @@
 		<!-- End of section 3 -->
 		<!-- Image collage 2 start-->
 		<div
-			class="w-[85%] mx-auto my-[60px] h-[1000px] flex relative content-center py-[80px]"
+			class="w-[85%] mx-auto my-[60px] h-[75vw] flex relative content-center py-[80px]"
 		>
 			<div class="w-1/2 flex h-full items-center">
 				<div class="flex flex-col w-full h-[80%] gap-y-[90px] justify-between">
@@ -138,7 +142,7 @@
 				<div id="photo5Container" class="w-[100%]"></div>
 			</div>
 			<div
-				class="bg-[#B6FFC0] z-[-1] absolute w-[65%] h-[90%] top-[40px] left-[-70px]"
+				class="bg-[#B6FFC0] z-[-1] absolute w-[58.3vw] h-[58.3vw] top-[40px] left-[-70px]"
 			></div>
 		</div>
 		<!-- Image collage 2 end-->
@@ -220,11 +224,14 @@
 		</div>
 		<footer class="border-t-2">
 			<!-- Footer container start -->
-			<div class="flex flex-col w-[85%] py-[8.3333vw] mx-auto">
+			<div
+				id="footerContainer"
+				class="flex flex-col w-[85%] py-[8.3333vw] mx-auto"
+			>
 				<!-- row 1 - Website Title-->
 				<h2 class="font-bold text-5xl pb-[80px]">Ableton</h2>
 				<!-- row 2 -->
-				<div class="flex justify-between mb-[50px]">
+				<div id="footerRow2" class="flex justify-between mb-[50px]">
 					<ul class="whitespace-nowrap w-[30%]">
 						<li>
 							<a href="">Register Live or Push &rsaquo;</a>
@@ -270,21 +277,22 @@
 									type="text"
 									placeholder="Email Adress"
 									class="bg-[#eee] py-[8px] px-3 grow"
-								/><button class="bg-[blue] text-[white] px-4 font-bold">
+								/><button
+									class="bg-[blue] text-[white] px-4 font-bold whitespace-nowrap"
+								>
 									Sign up
 								</button>
 							</form>
 						</li>
 					</ul>
-					<div></div>
 				</div>
 				<!-- row 3 -->
 				<div class="flex mb-[50px]">
 					<ul class="w-[30%]">
-						<li><strong>Community</strong></li>
-						<li>Find Ableton User Groups &rsaquo;</li>
-						<li>Find Certified Training &rsaquo;</li>
-						<li>Become a Certified Trainer &rsaquo;</li>
+						<li><a href=""><strong>Community</a></strong></li>
+						<li><a href="">Find Ableton User Groups &rsaquo;</a></li>
+						<li><a href="">Find Certified Training &rsaquo;</a></li>
+						<li><a href="">Become a Certified Trainer &rsaquo;</a></li>
 					</ul>
 					<ul class="w-[30%]">
 						<li><strong>Language and Location</strong></li>
@@ -303,8 +311,8 @@
 					</ul>
 				</div>
 				<!-- row 4 -->
-				<div class="flex justify-between">
-					<ul class="flex">
+				<div class="flex justify-between font-bold">
+					<ul id="footerSecondaryLinks" class="flex">
 						<li class="mr-[1rem] text-sm"><a href="">Contact Us</a></li>
 						<li class="mr-[1rem] text-sm">
 							<a href=""></a><a href="">Press Resources</a>
@@ -314,7 +322,7 @@
 						<li class="mr-[1rem] text-sm"><a href="">Cookie Settings</a></li>
 						<li class="mr-[1rem] text-sm"><a href="">Imprint</a></li>
 					</ul>
-					<div class="text-sm">Made in New Zealand</div>
+					<div id="footerSignature" class="text-sm">Made in New Zealand</div>
 				</div>
 			</div>
 			<!-- Footer container end -->
