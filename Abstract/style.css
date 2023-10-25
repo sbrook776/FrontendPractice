@@ -29,9 +29,18 @@
 
 #footer-inner-wrapper {
     display: grid;
-    grid-template-columns: 4fr 3fr;
-    
+    grid-template-columns: 4fr 3fr; 
 }
+
+#copyright-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+#copyright-footer div {
+    display: grid;
+    grid-column: 2 / 4;
+}
+
 #footer-links {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
