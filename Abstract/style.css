@@ -1,3 +1,7 @@
+/* Navigation */
+#hamburger-Menu{
+    display: none;
+}
 #category-list-item div a {
     text-decoration: none;
 }
@@ -54,11 +58,17 @@
         height: 60vh;
     }
 }   
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
     #footer-links {
         grid-template-columns: repeat(2, 2fr);
     }    
     #footer-inner-wrapper {
         height: 90vh;
+    }
+    #navButtonWraper {
+        display: none;
+    }
+    #hamburger-Menu{
+        display: flex;
     }
 }
