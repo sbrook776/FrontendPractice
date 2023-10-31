@@ -26,7 +26,7 @@
 	<body
 		class="font-['SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif'] font-[700]"
 	>
-		<nav class="h-[100px]">
+		<nav class="h-[80px]">
 			<div
 				class="flex justify-between bg-white pl-[15px] pr-[25px] h-full items-center min-[1024px]:px-[40px]"
 			>
@@ -56,12 +56,12 @@
 						</svg>
 					</a>
 				</div>
-				<div id="hamburger-Menu" class="min-[805px]:hidden">
+				<div id="hamburger-Menu" class="md:hidden">
 					<i class="fa-solid fa-bars text-[25px]"></i>
 				</div>
 				<!-- Large device navigation -->
 				<div
-					class="w-full h-full flex justify-between items-center max-[805px]:hidden"
+					class="w-full h-full md:flex justify-between items-center hidden"
 				>
 					<ul
 						class="flex text-sm tracking-wider justify-between gap-4 h-full items-center"
@@ -119,19 +119,82 @@
 			>
 				Join in the app
 			</button>
-			<!-- first section with background image -->
 		</div>
-		<div class="h-[520px] bg-[url('Images/hero-mobile_2021.webp')] bg-cover">
-			<div class="text-center">
-				<h1>FREE COFFEE IS A TAP AWAY</h1>
-				<p>Join now to start earning rewards</p>
+		<!-- first section with background image -->
+		<div class="w-[100%] h-[70vh] md:max-h-[50vw] mb-[40px]">
+		<div class="h-full w-full bg-[url('Images/hero-mobile_2021.webp')] bg-cover md:bg-cover md:bg-[50%] bg-no-repeat md:bg-[url('Images/xl-hero-desktop_2021.webp')] md:bg-[#d4e9e2] md:h-full md:flex md:items-center">
+			<div class="text-center md:text-left py-[30px] px-[15px] w-[70%] mx-auto justify-start md:mx-0">
+				<h2 class="text-[30px] font-semibold leading-[1.29]">FREE COFFEE</br> IS A TAP AWAY</h2>
+				<p class="mt-[18px]">Join now to start earning rewards</p>
 				<button
-					class="text-white border-white border-[1px] rounded-3xl py-[5px] px-[15px] align-middle bg-[#00754a]"
+					class="mt-[30px] md:hidden text-white border-white border-[1px] rounded-3xl py-[5px] px-[15px] align-middle bg-[#00754a]"
 				>
 					Join in the app
 				</button>
-				<a href="" class="block">Or join online</a>
+				<button
+					class="mt-[30px] hidden md:block text-white border-white border-[1px] rounded-3xl py-[5px] px-[15px] align-middle bg-[#00754a]"
+				>
+					Join Now
+				</button>
+				<p class="md:hidden mt-[30px]"><a href="" >Or join online</a></p>
+				<p class="hidden md:inline-block mt-[30px]">Or <a href="">join in the app</a> for the best experience</p>
 			</div>
 		</div>
+	</div>
+	<!-- Instructions section start -->
+	<section>
+		<div class="px-[16px] my-[40px]">
+		<h1 class="text-center text-2xl mb-[20px]">Getting started is easy</h1>
+		<h4 class="text-center text-[14px] mb-[50px]">Earn Stars and get rewarded in a few easy steps.</h4>
+		<div>
+			<div class="flex mb-[40px]">
+				<img src="Images/getting-started-1@2x.webp" alt="" class="w-[48px] h-[48px] mr-[16px]">
+				<div>
+					<h3 class="text-[18px] text-bold mb-[15px]">Download the Starbucks® app</h3>
+					<p class="text-[14px] text-light"><a href="">Join in the app</a> to get access to the full range of Starbucks® Rewards benefits. 
+						You can also <a href="">join online.</a></p>
+				</div>
+			</div>
+			<div class="flex mb-[40px]">
+				<img src="Images/getting-started-2@2x.webp" alt="" class="w-[48px] h-[48px] mr-[16px]">
+				<div>
+					<h3 class="text-[18px] text-bold mb-[15px]">Order and pay how you’d like</h3>
+					<p class="text-[14px] text-light">Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. <a href="">Learn how</a></p>
+				</div>
+			</div>
+			<div class="flex mb-[40px]">
+				<img src="Images/getting-started-3@2x.webp" alt="" class="w-[48px] h-[48px] mr-[16px]">
+				<div>
+					<h3 class="text-[18px] text-bold mb-[15px]">Earn Stars, get Rewards</h3>
+					<p class="text-[14px] text-light">As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as little as 25 Stars!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Favourites for Free section -->
+	</section>
+		<div>
+			<div>
+				<h1 class="text-center">Get your favourites for free</h1>
+				<ul class="grid grid-cols-5">
+					<li><a class="w-full inline-block text-center" href="">25</a></li>
+					<li><a class="w-full inline-block text-center" href="">100</a></li>
+					<li><a class="w-full inline-block text-center" href="">200</a></li>
+					<li><a class="w-full inline-block text-center" href="">300</a></li>
+					<li><a class="w-full inline-block text-center" href="">400</a></li>
+				</ul>
+			</div>
+			<div>
+				<img src="Images/coffee1.webp" alt="">
+				<h2 class="text-center">Endess Extras</h2>
+				<p class="text-center">Joining Starbucks® Rewards means unlocking access to exclusive benefits. Say hello to easy ordering, tasty Rewards and—yes, free coffee.
+
+				</p>
+			</div>
+		</div>
+	<section>
+
+	</section>
+	<!-- Instructions section end -->
 	</body>
 </html>
