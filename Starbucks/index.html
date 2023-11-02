@@ -20,7 +20,7 @@
 		</style>
 	</head>
 	<body class="font-['SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif']">
-		<nav class="h-[80px]">
+		<nav class="h-[80px] lg:h-[100px]">
 			<div
 				class="flex justify-between bg-white pl-[15px] pr-[25px] h-full items-center min-[1024px]:px-[40px]"
 			>
@@ -56,7 +56,7 @@
 				<!-- Large device navigation -->
 				<div class="w-full h-full md:flex justify-between items-center hidden">
 					<ul
-						class="flex text-sm tracking-wider justify-between gap-4 h-full items-center"
+						class="flex text-sm tracking-wider justify-between gap-4 h-full items-center font-bold"
 					>
 						<li class="h-full items-center flex"><a href="">MENU</a></li>
 						<li class="shadow-[inset_0_-5px_#00754a] h-full items-center flex">
@@ -64,7 +64,7 @@
 						</li>
 						<li class="h-full items-center flex"><a href="">GIFT CARDS</a></li>
 					</ul>
-					<div class="flex items-center text-sm gap-4">
+					<div class="flex items-center text-sm gap-4 font-semibold">
 						<!-- Find a store Icon -->
 						<span class="flex mr-[40px]"
 							><a href="#" class="inline-block">
@@ -104,7 +104,7 @@
 		</nav>
 		<!-- Rewards top Banner -->
 		<div
-			class="bg-[#1e3932] flex justify-between py-[10px] px-[20px] items-center text-[15px] h-[55px]"
+			class="bg-[#1e3932] flex justify-between py-[10px] px-[20px] items-center text-[15px] h-[55px] md:pl-[99px]"
 		>
 			<h1 class="text-white font-bold">STARBUCKS® REWARDS</h1>
 			<button
@@ -282,31 +282,128 @@
 		</section>
 		<!-- Instructions section end -->
 		<section>
-			<div>
-				<h2 class="text-center font-bold pt-[32px]">Endess Extras</h2>
-				<p class="text-center font-[14px] pt-[16px]">
-					Joining Starbucks® Rewards means unlocking access to exclusive
-					benefits. Say hello to easy ordering, tasty Rewards and—yes, free
-					coffee.
-				</p>
-			</div>
-			<div class="mt-[48px]">
-				<div class="flex">
-					<img
-						src="Images/1-fun-freebies.webp"
-						alt=""
-						class="w-[112px] h-[112px]"
-					/>
-					<div>
-						<h2 class="font-[16px] font-bold">Fun freebies</h2>
-						<p>
-							Not only can you earn free coffee, look forward to a birthday
-							treat plus coffee and tea refills.
-						</p>
-						<a href="">Learn more</a>
+			<div class="px-[16px] mb-[20px]">
+				<div>
+					<h2 class="text-center font-bold pt-[32px] text-[24px]">
+						Endess Extras
+					</h2>
+					<p class="text-center text-[14px] pt-[16px]">
+						Joining Starbucks® Rewards means unlocking access to exclusive
+						benefits. Say hello to easy ordering, tasty Rewards and—yes, free
+						coffee.
+					</p>
+				</div>
+				<div class="mt-[48px]">
+					<div class="flex mb-[20px]">
+						<img
+							src="Images/1-fun-freebies.webp"
+							alt=""
+							class="w-[112px] h-[112px] mr-[15px]"
+						/>
+						<div>
+							<h2 class="font-[16px] font-bold mb-[13px]">Fun freebies</h2>
+							<p class="text-[14px]">
+								Not only can you earn free coffee, look forward to a birthday
+								treat plus coffee and tea refills.
+							</p>
+							<a href="" class="block my-[15px] underline">Learn more</a>
+						</div>
+					</div>
+					<div class="flex mb-[20px]">
+						<img
+							src="Images/2-order-and-pay-ahead.webp"
+							alt=""
+							class="w-[112px] h-[112px] mr-[15px]"
+						/>
+						<div>
+							<h2 class="font-[16px] font-bold mb-[13px]">Order & pay ahead</h2>
+							<p class="text-[14px]">
+								Enjoy the convenience of in-store, curbside or drive-thru pickup
+								at select stores.
+							</p>
+							<a href="" class="block my-[15px] underline">Learn more</a>
+						</div>
+					</div>
+					<div class="flex mb-[20px]">
+						<img
+							src="Images/3-get-to-free-faster.webp"
+							alt=""
+							class="w-[112px] h-[112px] mr-[15px]"
+						/>
+						<div>
+							<h2 class="font-[16px] font-bold mb-[13px]">
+								Get to free faster
+							</h2>
+							<p class="text-[14px]">
+								Earn Stars even quicker with Bonus Star challenges, Double Star
+								Days and exciting games.
+							</p>
+							<a href="" class="block my-[15px] underline">Learn more</a>
+						</div>
 					</div>
 				</div>
 			</div>
+			<!-- Cash or card section start-->
+			<section>
+				<div class="px-[20px] bg-[#f2f0eb]">
+					<div>
+						<h2 class="text-center">Cash or card, you earn Stars</h2>
+						<p class="text-center">
+							No matter how you pay, you can earn Stars with your morning
+							coffee. Those Stars add up to (really delicious) Rewards.
+						</p>
+						<div>
+							<p><span>1★</span>per dollar</p>
+							<p>Pay as you go</p>
+							<div class="flex mb-[30px]">
+								<img src="Images/1A.png" alt="" class="w-[33%] mr-[15px]" />
+								<div>
+									<h3 class="font-bold mb-[15px]">Scan and pay separately</h3>
+									<p>Use cash or credit/debit card at the register.</p>
+								</div>
+							</div>
+							<div class="flex mb-[30px]">
+								<img src="Images/1B.webp" alt="" class="w-[33%] mr-[15px]" />
+								<div>
+									<h3 class="font-bold mb-[15px]">Scan and pay separately</h3>
+									<p>
+										Check-out faster by saving a credit/debit card or PayPal to
+										your account. You’ll be able to order ahead or scan and pay
+										at the register in one step.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<p><span>2★</span>per dollar</p>
+							<p>Add funds in the app</p>
+							<div class="flex mb-[30px]">
+								<img src="Images/2A.png" alt="" class="w-[33%] mr-[15px]" />
+								<div>
+									<h3 class="font-bold mb-[15px]">Preload</h3>
+									<p>
+										To save time and earn Stars twice as fast, add money to your
+										digital Starbucks Card using any payment option. Scan and
+										pay in one step or order ahead in the app.
+									</p>
+								</div>
+							</div>
+							<div class="flex mb-[30px]">
+								<img src="Images/2B.webp" alt="" class="w-[33%] mr-[15px]" />
+								<div>
+									<h3 class="font-bold mb-[15px]">Register your gift card</h3>
+									<p>
+										Then use it to pay through the app. You can even consolidate
+										balances from multiple cards in one place.
+									</p>
+								</div>
+							</div>
+						</div>
+						<hr />
+					</div>
+				</div>
+			</section>
+			<!-- Cash or card section end-->
 		</section>
 	</body>
 </html>
